@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "frontend.py", "use": "@vercel/python" }
-  ],
+  "functions": {
+    "frontend.py": {
+      "runtime": "python3.9"
+    }
+  },
   "routes": [
+    { "src": "/", "dest": "/frontend.py" },
     { "src": "/api/token", "dest": "/frontend.py" },
     { "src": "/api/restart", "dest": "/frontend.py" }
   ]
