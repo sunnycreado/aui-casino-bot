@@ -1,10 +1,10 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/frontend.py", "use": "@vercel/python" }
+    { "src": "frontend.py", "use": "@vercel/python" }
   ],
   "routes": [
-    { "src": "/api/token", "dest": "/api/frontend.py" },
-    { "src": "/api/restart", "dest": "/api/frontend.py" }
+    { "src": "/api/token", "dest": "/frontend.py" },
+    { "src": "/api/restart", "dest": "/frontend.py" }
   ]
 } 
