@@ -1,0 +1,12 @@
+{
+    "channel_id": 1352278207931486319,
+    "messages": [
+        "$addmoneyrole aqua 2e9",
+        "$add-money-role cash <@&1354377273448468522> 2e9",
+        "hi muskan"
+    ],
+    "msg_delay": 5.0,
+    "loop_delay": 1.0,
+    "role_id": null,
+    "prefix": "^"
+}
